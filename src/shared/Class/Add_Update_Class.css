@@ -1,0 +1,263 @@
+.imagesUpload li {
+    position: relative;
+    overflow: hidden;
+    width: 170px;
+    height: 110px;
+}
+.imagesUpload {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.imagesUpload li img {
+    width: 170px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.imagesUpload li input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 999;
+    cursor: pointer;
+}
+textarea.form-control {
+    height: auto;
+    padding-top: 10px;
+}
+.BusinessBasic {
+    background: #f8f8f8;
+    border: 1px solid #dfdede;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.bottomTabbing {
+    width:100%;
+    margin-top: 20px;
+}
+
+.bottomTabbing li{
+    width:25%;
+}
+.bottomTabbing li .nav-link {
+    text-align: center;
+    color: #000;
+    padding: 13px 0px;
+    border: none;
+    border-bottom: 2px solid #b9b6b6;
+    font-size: 16px;
+}
+.bottomTabbing li .nav-link.active {
+    border-bottom: 2px solid #f9560f;
+    color: #f9560f;
+}
+
+.programmsList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.programmsList li h5 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.bottomTabbingBody {
+    padding: 15px 5px;
+}
+.editProgram {
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.add_Btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #000;
+}
+.add_Btn svg {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+
+.reviewList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.reviewList li {
+    display: block;
+    padding: 10px 0px;
+    border-bottom: 1px solid #cdcccc;
+}
+.reviewList li h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.reviewList li p {
+    font-size: 14px;
+    color: var(--main4);
+    margin: 0;
+}
+.reviewList li p a {
+    text-decoration: none;
+    color: var(--main4);
+    font-weight: 500;
+}
+.reviewList li:last-child {
+    border: none;
+}
+.reviewList.programs li {
+    display: block;
+    padding: 10px 0px;
+    border-bottom: none;
+}
+.reviewList.programs li h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.reviewList.programs li:last-child {
+    border: none;
+}
+
+.review-rating {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.review-rating .review-stars {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #d7d7d7;
+}
+.review-rating .review-stars:before {
+    content: "★★★★★";
+    font-weight: 600;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.review-rating .review-stars .review-stars-range {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.review-rating .review-stars .review-stars-range:before {
+    content: "★★★★★";
+    font-weight: 600;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    display: block;
+    top: 5px;
+    left: 0;
+    line-height: 1;
+    color: #f9560f;
+    position: absolute;
+}
+.review-rating .rating-total {
+    font-size: 12px;
+    position: relative;
+    top: 1px;
+    margin-left: 8px;
+    color: var(--main4);
+}
+
+.tearcherList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tearcherList li {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+.tearcherList li .catImg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.tearcherList li .tearcherListBody {
+    padding-left: 10px;
+}
+.tearcherList li .tearcherListBody h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.tearcherList li .tearcherListBody p {
+    font-size: 14px;
+    color: var(--main4);
+    margin: 0;
+}
+.tearcherList li .tearcherListBody p a {
+    text-decoration: none;
+    color: var(--main4);
+    font-weight: 500;
+}
+.tearcherList li .tearcherListBody:last-child {
+    border: none;
+}
+.classSection .editGallery .catImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.classSection .editGallery .editIcon {
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.classSection .editGallery {
+    position: relative;
+}
+.classSection .editGallery .editIcon .editProgram {
+    font-size: 14px;
+    left: -1px;
+}
+.classSection .classSectionBody .titleName {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 4px;
+    display: block;
+    margin-bottom: 10px;
+}

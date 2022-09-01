@@ -1,0 +1,14 @@
+<svg id="classImg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="116.735" viewBox="0 0 165 116.735">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="37.64" height="26.63" rx="6" fill="#f3f3f3"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="165" height="116.735" rx="6" fill="#ebebeb"/>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(63.68 45.053)" clip-path="url(#clip-path)">
+    <g id="icon-camera" transform="translate(3.244 0.754)">
+      <path id="Path_1" data-name="Path 1" d="M35.557,26.736a2.771,2.771,0,0,1-.829,1.974,2.853,2.853,0,0,1-2,.818H7.237a2.853,2.853,0,0,1-2-.818,2.771,2.771,0,0,1-.829-1.974V11.384A2.771,2.771,0,0,1,5.235,9.41a2.853,2.853,0,0,1,2-.818H12.9l2.832-4.187h8.5l2.832,4.187h5.664a2.853,2.853,0,0,1,2,.818,2.771,2.771,0,0,1,.829,1.974Z" transform="translate(-4.405 -4.405)" fill="none" stroke="#7f8699" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M53.52,52.28A5.583,5.583,0,1,0,47.856,46.7,5.624,5.624,0,0,0,53.52,52.28Z" transform="translate(-37.944 -32.74)" fill="none" stroke="#7f8699" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

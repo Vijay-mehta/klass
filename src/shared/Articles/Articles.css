@@ -1,0 +1,136 @@
+
+.btns_head .btn {
+    background-image: linear-gradient(to right, var(--main) , var(--main2));
+    color: #fff;
+    border:none;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+.btn_table.btn-success {
+    height: 26px;
+    line-height: 1px;
+    font-size: 12px;
+}
+.profile_img_table {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.profle_img_box stong {
+    margin-left: 5px;
+}
+
+.cts_datatable {
+    font-family: 'Poppins', sans-serif !important;
+}
+.table_arrow {
+    font-size: 34px;
+    position: absolute;
+    right: 10px;
+    color: #616161;
+    top: -3px;
+    padding: 0px 10px;
+}
+.ag-theme-alpine .ag-cell, .ag-theme-alpine .ag-full-width-row .ag-cell-wrapper.ag-row-group {
+    line-height: 53px !important;
+}
+.ag-theme-alpine [class^=ag-], .ag-theme-alpine [class^=ag-]:focus, .ag-theme-alpine [class^=ag-]:after, .ag-theme-alpine [class^=ag-]:before {
+    justify-content: center !important;
+}
+.ag-theme-alpine .ag-ltr .ag-cell {
+    text-align: center !important;
+}
+
+
+
+.ract_tab_list li .nav-link {
+    background: transparent;
+    font-weight: 500;
+    color: #6b6b6b;
+    border: none;
+    border-bottom: 2px solid #b3b3b3;
+    padding: 5px 15px;
+}
+.ract_tab_list li .nav-link.active,.ract_tab_list li .nav-link:hover,.ract_tab_list li .nav-link:focus {
+    background: transparent;
+    border: none;
+    color: var(--main);
+    border-bottom: 2px solid var(--main);
+}
+.table_half tr td {
+    width: 50%;
+}
+.table tr:nth-child(odd) td {
+    background: #fafafa;
+    box-shadow: none;
+}
+.table tr td {
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.tb_title {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color:var(--main);
+}
+.ract_tab_data {
+    padding-top: 30px;
+}
+.seprate_line {
+    border-right: 1px solid var(--main);
+}
+.table > :not(:first-child) {
+    border-top: 1px solid #dddddd;
+}
+.table > thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 15px;
+    color: var(--main);
+}
+.top_menubar .nav-tabs {
+    float: left;
+}
+.top_menubar {
+    display: inline-block;
+    width: 100%;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button {
+    padding: 15px 2px;
+    border-radius: 0px;
+}
+.care_plan_list .accordion-item {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #dedede;
+}
+.care_plan_list .accordion-item .accordion-header .accordion-button img {
+    margin-right: 10px;
+}
+.care_plan_list .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    background: transparent;
+    border: none;
+    color: #000;
+    box-shadow:none;
+}
+.care_plan_list .accordion-item .accordion-header .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+.care_plan_list .accordion-body {
+    padding: 10px 0px;
+}
+
+.tableFix{
+    overflow: hidden;
+    height: calc(100vh - 310px);
+    height: -moz-calc(100vh - 310px);
+    height: -webkit-calc(100vh - 310px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}

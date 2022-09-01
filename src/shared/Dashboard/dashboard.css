@@ -1,0 +1,138 @@
+
+.dashboard_card .card-body p {
+    margin: 0px 0px 6px 0px;
+    font-size: 14px;
+}
+.dashboard_card .card-body p strong {
+    color: var(--main);
+}
+.dashboard_card .card-body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 5px;
+    margin-block: 5px;
+}
+.dashboard_card .card-body ul li img {
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 3px;
+    height: 30px;
+    object-fit: cover;
+}
+.dashboard_card .card-body .link {
+    font-size: 14px;
+    float: right;
+    color: var(--main);
+}
+.card.dashboard_card {
+    background-image: linear-gradient(to right, var(--main) , var(--main2));
+    padding-top: 5px;
+}
+.card.dashboard_card .card-body {
+    background: #fff;
+}
+.dashboard_card .card-body ul.notification_ul {
+    display: block;
+    width: 100%;
+}
+.dashboard_card .card-body ul.notification_ul li a {
+    text-decoration: none;
+    color: var(--main);
+    padding: 15px 15px;
+    display: block;
+}
+.dashboard_card .card-body ul.notification_ul li:nth-child(even) a {
+    text-decoration: none;
+    color: var(--main);
+    background: #fcf6ff;
+    padding: 15px 15px;
+    display: block;
+}
+.dashboard_card .card-body ul.notification_ul li a span {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+.dashboard_card .card-body ul.notification_ul li a div {
+    font-size: 14px;
+}
+.dashboard_card .card-body ul.notification_ul li a div img {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+}
+.dashboard_card .card-body p.task.time {
+    background: var(--main);
+    padding: 10px 15px;
+    color:#fff;
+}
+.dashboard_card .card-body p.task.time strong{
+    color:#fff;
+}
+ul.filter_box {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-bottom: 15px;
+}
+ul.filter_box a {
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 4px;
+    font-weight: 500;
+    color: #939393;
+}
+ul.filter_box a.active {
+    color: var(--main);
+}
+.graph_box .donut {
+    height: 152px;
+    width: 130px;
+    float: right;
+}
+.dashboard_card .card-body .graph_box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+}
+.dashboard_card .card-body .graph_box ul li {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.dashboard_card .card-body .graph_box ul li stong {
+    font-size: 18px;
+    font-weight: 600;
+}
+.dashboard_card .card-body .graph_box .graph_box {
+    display: flow-root;
+    width: 100%;
+    height: 100%;
+}
+.graph_box {
+    display: flow-root;
+}
+.graph_box_in {
+    height: 152px;
+    width: 130px;
+    float: right;
+    position: relative;
+}
+.graph_box_in .count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -9px;
+    margin-left: 2px;
+    color: var(--main);
+}

@@ -1,0 +1,12 @@
+.modal-dialog-centered .modal-content .modal-body p {
+    font-size: 17px !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+.modal-btn1 {
+    text-align: center;
+}
+.modal-btn1 button {
+    margin: 0px 5px;
+}

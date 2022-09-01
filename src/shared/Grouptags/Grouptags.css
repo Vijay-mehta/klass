@@ -1,0 +1,8 @@
+.tableFix{
+    overflow: hidden;
+    height: calc(100vh - 310px);
+    height: -moz-calc(100vh - 310px);
+    height: -webkit-calc(100vh - 310px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
